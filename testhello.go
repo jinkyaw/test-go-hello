@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-    "github.com/jinkyaw/greetings"
+    "github.com/jinkyaw/test-go-hello/testquote"
 )
 
 
 func main() {
- fmt.Println(greetings.Hello("User"))
+ fmt.Println(testquote.Random())
 }
