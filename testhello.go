@@ -1,8 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+    "github.com/jinkyaw/greetings"
+)
 
 
 func main() {
- fmt.Println("Test here")
+ fmt.Println(greetings.Hello("User"))
 }
